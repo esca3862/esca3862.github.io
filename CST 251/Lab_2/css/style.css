@@ -1,0 +1,132 @@
+    body{
+      /*3 different ways to change color*/
+/*        color: red;*/
+/*        color: #009900;*/
+/*        color: rgba(0, 0, 255, 0.5);*/
+
+        background-image: url(https://cdn.pixabay.com/photo/2016/02/10/16/37/cat-1192026__340.jpg);
+
+      /*below: for a image in a folder on a computer*/
+/*        background-image: url(img/myImage.png);*/
+
+      /*different ways to resize background image*/
+        /*|background-repeat: no-repeat| makes the image not repeat more than once(would repeat to fill up page if this line is not used)*/
+        background-repeat: no-repeat;
+        background-size: cover;
+/*      background-size: 100%;*/
+      /*below: covers the whole page*/
+/*        background-size: cover;*/
+
+    }
+
+    h1{
+        font-size: 5vw;
+        color: white;
+        background-color: black;
+        text-align: center;
+        padding: 15px;   
+/*        border: 10px solid red;*/
+        border-bottom: 10px solid rgb(85, 156, 82);
+        border-top: 10px solid rgb(85, 156, 82);
+        padding: 15px;
+/*        padding: 5px 20px 40px 50px;*/
+        margin: 0 0px;
+/*        border-radius: 50px;*/
+/*        height: 150px;*/
+/*        overflow: scroll;*/
+        width: 75%;
+        margin: 0 auto;  
+/*        ^centers clock element^*/
+/*        font-size: 4rem;*/
+        font-size: 5vw;
+        font-family: 'Sofia' ;
+        border-radius: 30px;
+
+    }
+
+    footer{
+        background-color: black;
+        text-align: center;
+        font-size: 1vw;
+        padding: 15px;
+        color: white;
+        border-bottom: 10px solid rgb(85, 156, 82);
+        border-top: 10px solid rgb(85, 156, 82);
+        width: 75%;
+        margin: 0 0px;
+        margin: 0 auto;
+        border-radius: 30px;
+    }
+
+    #csumb_logo{
+        width:  5%;
+        border: 0px;
+        border-radius: 50%;
+    }
+
+    main{
+        background-color: rgba(108, 122, 148, 0.6);
+        padding: 20px;
+        width: 74.5%;
+        margin: 0 auto;
+/*            font-size: 1.5rem;*/
+        font-size: 2VW;
+        font-family: 'Kanit', sans-serif;
+        border-radius: 40px;
+        text-align: center;
+    }
+
+    a{
+        color: green;
+    }
+
+    ul{
+        color: #155c1b;
+/*        background-color: grey;*/
+        display: inline-block;
+/*        list-style-position: outside;*/
+    }
+
+    ol{
+        color: #155c1b;
+        display: inline-block;
+    }
+
+    img{
+        border: 4px solid black;
+/*        padding: 5px 20px 40px 60px;*/
+/*        padding: 0px 50px;*/
+        border-radius: 100px 50px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    button{
+        border-radius: 10px;
+        background-color: green;
+        color: white;
+    }
+
+    #lgnd{
+        font-family: 'Signika Negative', sans-serif;
+    }
+
+    label{
+        font-family: 'Patrick Hand', cursive;
+    }
+
+    input[type="text"]{
+        border-radius: 40px;
+        border: 2px solid black;
+        text-align: center;
+    }
+    
+
+    input[type="radio"]{
+        accent-color: green;
+    }
+
+    input[type="checkbox"]{
+        accent-color: green;
+    }
+

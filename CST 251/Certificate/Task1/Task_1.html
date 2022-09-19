@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CSUMB Survey</title>
+  <link rel="icon" href="https://pbs.twimg.com/profile_images/528708685862678528/uxh9cZse_400x400.jpeg">
+
+  <style>
+
+    h1{
+      text-decoration: underline;
+    }
+
+    body{
+      background-image: url(https://pajarovalleychamber.com/wp-content/themes/pajaro/img/csumb.png);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      text-align: center;
+      color: white;
+    }
+
+    div{
+/*      width: 500px;*/
+      text-align: center;
+      background-color: rgba(24, 41, 110, 0.95);
+      height:  880px;
+      width: 430px;
+/*      outline: black;*/
+      border:  4px black;
+      padding:  10px;
+      margin: 0 auto;
+      border-radius: 25px;
+      border-style: solid;
+/*      margin: 350px;*/
+    }
+
+    #questions{
+      text-decoration: underline;
+      color: darkgrey;
+    }
+
+    p{
+      color: darkgrey;
+    }
+
+  </style>
+
+</head>
+  <body>
+
+    <div>
+      <header>
+        <h1 id="title">CSUMB Survey</h1>
+      </header>
+      
+      <p id="description"> The school is conducting a short survey to collect some data regarding it's students. Please contriute by helping with the following information.</p>
+
+      <form id="survey-form">
+<!--         <label id="name-label">Enter name: </label>
+        <input id="name" type="text" required placeholder="Name"><br><br> -->
+        <label id="name-label">Enter name:
+          <input id="name" type="text" required placeholder="Name"><br><br>
+        </label>
+
+        <label id="email-label">Enter email:
+          <input id="email" type="email" required placeholder="Email"><br><br>
+        </label>
+
+        <label id="number-label">Enter your age:
+          <input id="number" type="number" min="0" max="100" placeholder="0" required><br><br>
+        </label>
+
+        <p id="questions">What year is this for you?</p>
+        <select id="dropdown">
+          <option>Freshman</option>
+          <option>Sophomore</option>
+          <option>Junior</option>
+          <option>Senior</option>
+        </select><br><br>
+
+        <p id="questions">Please select which below applies to you.</p>
+        <label id="on"> <input type="radio" name="On-off" value="On-campus"> On-Campus </label>
+        <label id="off"> <input type="radio" name="On-off" value="Off- campus"> Off-campus </label>
+        <br><br>
+
+        <p id="questions">Please select which below applies to you.</p>
+        <label id="transfer"> <input type="checkbox" value="student_type">Transfer from Community College </label>
+        <label id="university"> <input type="checkbox" value="student_type">Straight to University </label>
+        <br><br>
+
+        <p id="questions">What is your major?</p>
+        <select id="dropdown">
+          <option>Art</option>
+          <option>Business</option>
+          <option>Computer Science</option>
+          <option>Communications</option>
+          <option>English</option>
+          <option>Other</option>
+        </select>
+        <br><br>
+
+        <p id="questions">Why did you choose your major?</p>
+        <textarea rows="9" cols="50"></textarea>
+        <br><br>
+
+
+        <button type="submit" id="submit">Submit</button>
+
+    </form>
+    </div>
+  </body>
+</html>
