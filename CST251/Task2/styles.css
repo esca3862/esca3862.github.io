@@ -1,0 +1,73 @@
+    body{
+      text-align: center;
+    }
+
+    img{
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+    }
+
+    #csumb_logo{
+      height: 75px;
+      width: 75px;
+    }
+
+    h1{
+      font-size: 6vw;
+      padding: 10px;
+    }
+
+    h3{
+      font-size: 1.5vw;
+      padding: 10px;
+    }
+
+    #under-image-caption{
+      font-size: 2vw;
+      padding: 10px;
+    }
+
+    main{
+      background-color: rgb(189, 185, 185);
+      padding-bottom: 20px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border-top: 10px solid black;
+      border-bottom: 10px solid black;
+    }
+
+    figcaption{
+      padding-top: 10px;
+    }
+
+
+    figure{
+      padding: 20px;
+      background-color: rgb(219, 217, 217);
+      margin: 0;
+    }
+
+    #title-caption{
+      margin-top: -80px;
+      font-size: 2vw;
+    }
+
+    #img-caption{
+      margin-top: 10px;
+      font-size: 2vw;
+    }
+
+    dt,dd{
+      font-size: 1.5vw;
+    }
+
+    p{
+      font-size: 1.3vw;
+    }
+
+    footer{
+      font-size: 1vw;
+    }

@@ -1,0 +1,13 @@
+<main id="main">
+
+  <h1 id="title">Steve Jobs</h1>
+
+
+  <figure id="img-div">
+  <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg/800px-Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg" alt="Steve Jobs holding up an iPhone" style=max-width:100%;display:block>
+  <figcaption id="img-caption">Founder of Apple</figcaption>
+  <h3 id="tribute-info">The face of innovation</h3>
+  <a href="https://en.wikipedia.org/wiki/Steve_Jobs" id="tribute-link" target="_blank"></a>
+  </figure>
+
+</main>
